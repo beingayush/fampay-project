@@ -15,7 +15,7 @@ from app.recurring_task import get_latest_videos_from_youtube
 # Elastic search host url
 host = ''
 access_key = os.getenv('AWS_ACCESS_KEY_ID')
-secret_key = os.getenv('AWS_SECRAWS_SECRET_ACCESS_KEY')
+secret_key = os.getenv('AWS_SECRET_ACCESS_KEY')
 
 region = "ap-south-1"
 awsauth = AWS4Auth(access_key, secret_key, region, 'es')
