@@ -1,17 +1,13 @@
 from typing import Optional
 from datetime import datetime
-from pydantic import BaseModel, Json
+from pydantic import BaseModel
 
 
 class Video(BaseModel):
-    id: int
-    video_id: str
-    title: str
+    title: Optional[str] = None
     description: Optional[str] = None
     published_at: Optional[datetime] = None
-    thumbnails: Optional[Json] = None
-
-
+    thumbnails: dict = None
 
 
 

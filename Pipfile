@@ -9,6 +9,12 @@ uvicorn = {extras = ["standard"], version = "*"}
 google-api-python-client = "*"
 google-auth-oauthlib = "*"
 fastapi-utils = "*"
+boto3 = "*"
+requests-aws4auth = "*"
+elasticsearch = "*"
+elasticsearch-dsl = "*"
+async-exit-stack = "*"
+async-generator = "*"
 
 [dev-packages]
 
