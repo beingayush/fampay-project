@@ -30,6 +30,6 @@ docker-compose up -d
 ## API
 
 - There is a unified api to do both the get and search operations
-- The search implemented is very efficient (done through elastic search)
+- The search implemented is very efficient (done through elastic search) and paginated
 - The service is highly scalable and optimised as dynamo db has a very low latency for reads and writes, elastic search is highly optimised for searching
 - The service has relevant validations for various request parameters
