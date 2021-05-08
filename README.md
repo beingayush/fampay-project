@@ -16,7 +16,7 @@
 - All the environment variables like region, elastic search domain need to be set for the lambda
 - The lambda should be given all access(read/write/list) to dynamo db and to the elastic search domain
 - Create a google developer api key with access to Youtube V3 api and insert it in the API_KEY variable in the file recurring_task.py
-- The aws access key and secret key need to be entered in the app/.env file
+- The AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY need to be entered in the app/.env file
 - The elastic search domain without https:// (starting with [search-XXXXX.ap-south-1.es.amazonaws.com](http://search-amplify-elasti-23tej89cv8rz-ylpz32lnmn5u54pgzwxfdlknrq.ap-south-1.es.amazonaws.com/)) should be entered in [main.py](http://main.py) in the variable named host
 - After everything is setup, run the application from the root directory using the following command
 
